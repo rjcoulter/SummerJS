@@ -1,2 +1,2 @@
 # SummerJS
-Introduction to Javascript, will be using the react framework
+A simple todo list application created using JavaScript
