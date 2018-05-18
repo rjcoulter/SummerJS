@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html>
+<!-- Title of the tab, links the css style page -->
 
 <head>
-  <title>Practical Todos</title>
+  <title>Todo List</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
+<!-- Start of the body of the document -->
+
 <body>
+  <!-- Title for the page -->
   <h1>Todo List</h1>
 
+  <!-- Creates a button to toggle all of the items -->
   <div>
     <button onclick="handlers.toggleAll()">Toggle All</button>
   </div>
 
+  <!-- Creates a button to add an item to the list -->
   <div>
     <button onclick="handlers.addTodo()">Add</button>
     <input id="addTodoTextInput" type="text">
   </div>
 
+  <!-- Creates a button to change the contents of a todo, takes a position and the text to change it to -->
   <div>
     <button onclick="handlers.changeTodo()">Change Todo</button>
     <input id="changeTodoPositionInput" type="number">
     <input id="changeTodoTextInput" type="text">
   </div>
 
+  <!-- Creates a button to toggle whehter or not an individual item has been completed -->
   <div>
     <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
     <input id="toggleCompletedPositionInput" type="number">
   </div>
 
+  <!-- An unordered list that holds the items-->
   <ul>
   </ul>
+
+  <!-- The javascript file that gives the application its functionality -->
   <script src="script.js"></script>
 </body>
 
