@@ -86,7 +86,6 @@ var handlers = {
     toggleCompletedPositionInput.value = "";
     view.displayTodos();
   },
-  // A method that toggles the completed property of all the items
   toggleAll: function () {
     todoList.toggleAll();
     view.displayTodos();

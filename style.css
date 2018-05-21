@@ -6,7 +6,7 @@ h1 {
     font-family: 'Courier New', Courier, monospace
 }
 .wrapper {
-    margin: 0 auto;
+    display: block;
 }
 ul {
     list-style-position: inside;

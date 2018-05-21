@@ -1,3 +1,3 @@
 # SummerJS
 
-A simple todo list application created using JavaScript
+A simple todo list application created using JavaScript, fully completed
