@@ -1,1 +1,13 @@
-/* Styles go here */
+body {
+    background-color: powderblue;
+}
+h1 { 
+    color: royalblue;
+    font-family: 'Courier New', Courier, monospace
+}
+.wrapper {
+    margin: 0 auto;
+}
+ul {
+    list-style-position: inside;
+}

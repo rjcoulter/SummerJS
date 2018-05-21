@@ -98,7 +98,7 @@ var view = {
   // A method that will display all of the items
   displayTodos: function () {
     // Finds the unordered list in index.html
-    var todosOl = document.querySelector("ul");
+    var todosUl = document.querySelector("ul");
     todosUl.innerHTML = "";
 
     // Creates a list item for each item present in the todos array

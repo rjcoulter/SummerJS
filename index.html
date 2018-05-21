@@ -11,34 +11,34 @@
 
 <body>
   <!-- Title for the page -->
-  <h1>Todo List</h1>
+  <h1 align = "center">Todo List</h1>
 
   <!-- Creates a button to toggle all of the items -->
-  <div>
+  <div class= "wrapper">
     <button onclick="handlers.toggleAll()">Toggle All</button>
   </div>
 
   <!-- Creates a button to add an item to the list -->
-  <div>
+  <div class = "wrapper">      
     <button onclick="handlers.addTodo()">Add</button>
     <input id="addTodoTextInput" type="text">
   </div>
 
   <!-- Creates a button to change the contents of a todo, takes a position and the text to change it to -->
-  <div>
+  <div class = "wrapper">
     <button onclick="handlers.changeTodo()">Change Todo</button>
     <input id="changeTodoPositionInput" type="number">
     <input id="changeTodoTextInput" type="text">
   </div>
 
   <!-- Creates a button to toggle whehter or not an individual item has been completed -->
-  <div>
+  <div class = "wrapper">
     <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
     <input id="toggleCompletedPositionInput" type="number">
   </div>
 
   <!-- An unordered list that holds the items-->
-  <ul>
+  <ul class = "wrapper">
   </ul>
 
   <!-- The javascript file that gives the application its functionality -->
